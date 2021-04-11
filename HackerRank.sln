@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingBook", "DrawingBook\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraLongFactorials", "ExtraLongFactorials\ExtraLongFactorials.csproj", "{CD6C4BCA-944A-4DB9-80F7-DAC83AD90934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleandOrange", "AppleandOrange\AppleandOrange.csproj", "{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{CD6C4BCA-944A-4DB9-80F7-DAC83AD90934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD6C4BCA-944A-4DB9-80F7-DAC83AD90934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD6C4BCA-944A-4DB9-80F7-DAC83AD90934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
