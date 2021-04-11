@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayManipulation", "ArrayM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArray-DS", "2DArray-DS\2DArray-DS.csproj", "{FA45F64E-E5F0-4F87-B7DE-C17BD1CC34D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingBook", "DrawingBook\DrawingBook.csproj", "{69D3BE7C-C2E3-444F-9986-D9AE5E424E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawingBook", "DrawingBook\DrawingBook.csproj", "{69D3BE7C-C2E3-444F-9986-D9AE5E424E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraLongFactorials", "ExtraLongFactorials\ExtraLongFactorials.csproj", "{CD6C4BCA-944A-4DB9-80F7-DAC83AD90934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraLongFactorials", "ExtraLongFactorials\ExtraLongFactorials.csproj", "{CD6C4BCA-944A-4DB9-80F7-DAC83AD90934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleandOrange", "AppleandOrange\AppleandOrange.csproj", "{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleandOrange", "AppleandOrange\AppleandOrange.csproj", "{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
