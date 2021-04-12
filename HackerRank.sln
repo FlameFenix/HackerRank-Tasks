@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraLongFactorials", "Extr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleandOrange", "AppleandOrange\AppleandOrange.csproj", "{5F0D9F4F-4E71-4446-BE43-A2E7CDF1F361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSets", "BetweenTwoSets\BetweenTwoSets.csproj", "{20065FB8-3EA6-4585-84CC-2D87957B2546}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED55FA3-7DE3-4D54-8E4E-55BC1BD0D50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20065FB8-3EA6-4585-84CC-2D87957B2546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20065FB8-3EA6-4585-84CC-2D87957B2546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20065FB8-3EA6-4585-84CC-2D87957B2546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20065FB8-3EA6-4585-84CC-2D87957B2546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
