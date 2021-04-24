@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 
@@ -8,22 +9,14 @@ namespace RecursiveDigitSum
     {
         static void Main(string[] args)
         {
-            BigInteger number = BigInteger.Parse(Console.ReadLine());
+            
+            string input = Console.ReadLine();
+            int[] arr = input.Select(x => Convert.ToInt32(x.ToString())).ToArray();
             BigInteger k = BigInteger.Parse(Console.ReadLine());
 
-            BigInteger sum = 0;
+            BigInteger sum = arr.Sum();
 
-            while (number > 0)
-            {
-                sum += number % 10;
-                number /= 10;
-            }
-            BigInteger currentNum = sum;
-
-            for (int i = 1; i < k; i++)
-            {
-                sum += currentNum;
-            }
+            sum = sum * k;
 
             int finalSum = SuperDigit(sum.ToString());
 
