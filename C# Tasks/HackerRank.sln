@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheHurdleRace", "TheHurdleR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveDigitSum", "RecursiveDigitSum\RecursiveDigitSum.csproj", "{7FBDA158-8103-4F07-A0E7-74C08FE4F06C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing Book", "Drawing Book\Drawing Book.csproj", "{41CB8AB3-642B-49C2-8F3D-B7ED76E79CF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drawing Book", "Drawing Book\Drawing Book.csproj", "{41CB8AB3-642B-49C2-8F3D-B7ED76E79CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day of the Programmer", "Day of the Programmer\Day of the Programmer.csproj", "{D5FE6AC8-85DA-4186-90C4-2B1E0FD5CEFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{41CB8AB3-642B-49C2-8F3D-B7ED76E79CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41CB8AB3-642B-49C2-8F3D-B7ED76E79CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41CB8AB3-642B-49C2-8F3D-B7ED76E79CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FE6AC8-85DA-4186-90C4-2B1E0FD5CEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FE6AC8-85DA-4186-90C4-2B1E0FD5CEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FE6AC8-85DA-4186-90C4-2B1E0FD5CEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FE6AC8-85DA-4186-90C4-2B1E0FD5CEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
