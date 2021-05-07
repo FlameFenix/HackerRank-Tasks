@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day of the Programmer", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counting Valleys", "Counting Valleys\Counting Valleys.csproj", "{028934B9-9DD8-4C4F-9DDC-0626BBEE1212}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picking Numbers", "Picking Numbers\Picking Numbers.csproj", "{1E415134-7CB5-4159-95A9-154D3ABCFC97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picking Numbers", "Picking Numbers\Picking Numbers.csproj", "{1E415134-7CB5-4159-95A9-154D3ABCFC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Append and Delete", "Append and Delete\Append and Delete.csproj", "{2BF2F99B-3343-463E-A820-B011FABE4E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{1E415134-7CB5-4159-95A9-154D3ABCFC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E415134-7CB5-4159-95A9-154D3ABCFC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E415134-7CB5-4159-95A9-154D3ABCFC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF2F99B-3343-463E-A820-B011FABE4E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF2F99B-3343-463E-A820-B011FABE4E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF2F99B-3343-463E-A820-B011FABE4E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF2F99B-3343-463E-A820-B011FABE4E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
