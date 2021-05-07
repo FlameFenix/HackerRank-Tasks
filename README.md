@@ -1,2 +1,5 @@
-<img src="https://github.com/FlameFenix/Certificates-Softuni/blob/main/Csharp.png?raw=true" width="1000" height="300">
-<img src="https://github.com/FlameFenix/Certificates-Softuni/blob/main/Fundamentals-of-JavaScript-Part-2.png?raw=true" width="1000" height="400">
+<h1> Problem Solving C# and JS </h1>
+<p>
+<img src="https://github.com/FlameFenix/Certificates-Softuni/blob/main/pictures/CSharp%20Icon.png?raw=true" width="100" height="100" align="center">
+<img src="https://github.com/FlameFenix/Certificates-Softuni/blob/main/pictures/js%20icon.jpg?raw=true" width="100" height="100" align="center">
+</p>
