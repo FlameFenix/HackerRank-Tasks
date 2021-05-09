@@ -53,7 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counting Valleys", "Countin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picking Numbers", "Picking Numbers\Picking Numbers.csproj", "{1E415134-7CB5-4159-95A9-154D3ABCFC97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Append and Delete", "Append and Delete\Append and Delete.csproj", "{2BF2F99B-3343-463E-A820-B011FABE4E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Append and Delete", "Append and Delete\Append and Delete.csproj", "{2BF2F99B-3343-463E-A820-B011FABE4E51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sherlock and Squares", "Sherlock and Squares\Sherlock and Squares.csproj", "{944546B8-A69A-47CB-891B-A16203BCDC1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forming a Magic Square", "Forming a Magic Square\Forming a Magic Square.csproj", "{6DDD8C71-1570-4AD8-A069-A2F5E09AF2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insertion Sort Part II", "Insertion Sort Part II\Insertion Sort Part II.csproj", "{1C215314-E185-4655-825A-303BF4D49050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{2BF2F99B-3343-463E-A820-B011FABE4E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF2F99B-3343-463E-A820-B011FABE4E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF2F99B-3343-463E-A820-B011FABE4E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944546B8-A69A-47CB-891B-A16203BCDC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944546B8-A69A-47CB-891B-A16203BCDC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944546B8-A69A-47CB-891B-A16203BCDC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944546B8-A69A-47CB-891B-A16203BCDC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDD8C71-1570-4AD8-A069-A2F5E09AF2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDD8C71-1570-4AD8-A069-A2F5E09AF2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDD8C71-1570-4AD8-A069-A2F5E09AF2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDD8C71-1570-4AD8-A069-A2F5E09AF2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C215314-E185-4655-825A-303BF4D49050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C215314-E185-4655-825A-303BF4D49050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C215314-E185-4655-825A-303BF4D49050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C215314-E185-4655-825A-303BF4D49050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
