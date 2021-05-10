@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sherlock and Squares", "She
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forming a Magic Square", "Forming a Magic Square\Forming a Magic Square.csproj", "{6DDD8C71-1570-4AD8-A069-A2F5E09AF2DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insertion Sort Part II", "Insertion Sort Part II\Insertion Sort Part II.csproj", "{1C215314-E185-4655-825A-303BF4D49050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insertion Sort Part II", "Insertion Sort Part II\Insertion Sort Part II.csproj", "{1C215314-E185-4655-825A-303BF4D49050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays Left Rotation", "Arrays Left Rotation\Arrays Left Rotation.csproj", "{5F3E0026-ACA0-4260-A28F-D06DD9F91933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{1C215314-E185-4655-825A-303BF4D49050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C215314-E185-4655-825A-303BF4D49050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C215314-E185-4655-825A-303BF4D49050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3E0026-ACA0-4260-A28F-D06DD9F91933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3E0026-ACA0-4260-A28F-D06DD9F91933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3E0026-ACA0-4260-A28F-D06DD9F91933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3E0026-ACA0-4260-A28F-D06DD9F91933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
