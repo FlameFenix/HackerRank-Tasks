@@ -63,11 +63,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insertion Sort Part II", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays Left Rotation", "Arrays Left Rotation\Arrays Left Rotation.csproj", "{5F3E0026-ACA0-4260-A28F-D06DD9F91933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bubble Sort", "Bubble Sort\Bubble Sort.csproj", "{91832182-10E1-41EA-8C41-94B356FCB662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bubble Sort", "Bubble Sort\Bubble Sort.csproj", "{91832182-10E1-41EA-8C41-94B356FCB662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mark and Toys", "Mark and Toys\Mark and Toys.csproj", "{36562646-05E7-43B3-B136-7681D9CD01E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mark and Toys", "Mark and Toys\Mark and Toys.csproj", "{36562646-05E7-43B3-B136-7681D9CD01E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings Making Anagrams", "Strings Making Anagrams\Strings Making Anagrams.csproj", "{80E0D83C-8A8C-4809-86FF-B6A2E2EE24B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings Making Anagrams", "Strings Making Anagrams\Strings Making Anagrams.csproj", "{80E0D83C-8A8C-4809-86FF-B6A2E2EE24B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanced Brackets", "Balanced Brackets\Balanced Brackets.csproj", "{64FE2E45-1C6E-4116-B815-792CB9D04FC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{80E0D83C-8A8C-4809-86FF-B6A2E2EE24B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E0D83C-8A8C-4809-86FF-B6A2E2EE24B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E0D83C-8A8C-4809-86FF-B6A2E2EE24B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FE2E45-1C6E-4116-B815-792CB9D04FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FE2E45-1C6E-4116-B815-792CB9D04FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FE2E45-1C6E-4116-B815-792CB9D04FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FE2E45-1C6E-4116-B815-792CB9D04FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
