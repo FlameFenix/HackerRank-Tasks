@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Balanced_Brackets
 {
@@ -7,53 +8,66 @@ namespace Balanced_Brackets
     {
         static void Main(string[] args)
         {
-            string s = "{[(])}";
-
-            char[] characters = s.ToCharArray();
-
-            Stack<char> stack = new Stack<char>();
-            Queue<char> queue = new Queue<char>();
-
-            for (int i = 0; i < characters.Length; i++)
+            int n = 79;
+            for (int i = 0; i < n; i++)
             {
-                if(characters[i] == '{' ||
-                    characters[i] == '(' ||
-                    characters[i] == '[')
+                string s = Console.ReadLine();
+
+                char[] characters = s.ToCharArray();
+                if (s.Length % 2 != 0)
                 {
-                    stack.Push(characters[i]);
+                    Console.WriteLine("NO");
                 }
                 else
                 {
-                    queue.Enqueue(characters[i]);
+                    Stack<char> stack = new Stack<char>();
+
+                    bool isMatch = true;
+
+                    for (int j = 0; j < s.Length; j++)
+                    {
+                        char currentBracket = s[j];
+
+                        if (currentBracket == '(' || currentBracket == '[' || currentBracket == '{')
+                        {
+                            stack.Push(currentBracket);
+                        }
+                        else
+                        {
+                            char expectedBracket = '\0';
+
+                            if (currentBracket == '}')
+                            {
+                                expectedBracket = '{';
+                            }
+                            else if (currentBracket == ']')
+                            {
+                                expectedBracket = '[';
+                            }
+                            else if (currentBracket == ')')
+                            {
+                                expectedBracket = '(';
+                            }
+
+                            if (stack.Count != 0 && stack.Pop() != expectedBracket)
+                            {
+                                isMatch = false;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (isMatch)
+                    {
+                        Console.WriteLine("YES");
+                    }
+                    else
+                    {
+                        Console.WriteLine("NO");
+                    }
                 }
             }
 
-            bool isMatch = true;
-
-            while (stack.Count > 0 && queue.Count > 0)
-            {
-                char openBracket = stack.Pop();
-                char closedBracket = queue.Dequeue();
-                if (openBracket == '{' && closedBracket == '}' ||
-                    openBracket == '(' && closedBracket == ')' ||
-                    openBracket == '[' && closedBracket == ']')
-                {
-
-                }
-                else
-                {
-                    isMatch = false;
-                }
-            }
-
-            if(isMatch)
-            {
-                Console.WriteLine("Yes");
-            }
-            else
-            {
-                Console.WriteLine("No");
-            }
         }
     }
 }
