@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Balanced_Brackets
 {
@@ -8,7 +9,18 @@ namespace Balanced_Brackets
     {
         static void Main(string[] args)
         {
-            int n = 79;
+            int n = 6;
+
+            /* 
+               }][}}(}][))]             // NO
+               [](){()}                // YES
+               ()                     // YES
+               ({}([][]))[]()        // YES
+               {)[](}]}]}))}(())(   // NO
+               ([[)                // NO */
+
+            StringBuilder sb = new StringBuilder();
+
             for (int i = 0; i < n; i++)
             {
                 string s = Console.ReadLine();
@@ -16,7 +28,7 @@ namespace Balanced_Brackets
                 char[] characters = s.ToCharArray();
                 if (s.Length % 2 != 0)
                 {
-                    Console.WriteLine("NO");
+                    sb.AppendLine("NO");
                 }
                 else
                 {
@@ -36,38 +48,49 @@ namespace Balanced_Brackets
                         {
                             char expectedBracket = '\0';
 
-                            if (currentBracket == '}')
+                            if(stack.Count != 0)
                             {
-                                expectedBracket = '{';
-                            }
-                            else if (currentBracket == ']')
-                            {
-                                expectedBracket = '[';
-                            }
-                            else if (currentBracket == ')')
-                            {
-                                expectedBracket = '(';
-                            }
+                                if (currentBracket == '}')
+                                {
+                                    expectedBracket = '{';
+                                }
+                                else if (currentBracket == ']')
+                                {
+                                    expectedBracket = '[';
+                                }
+                                else if (currentBracket == ')')
+                                {
+                                    expectedBracket = '(';
+                                }
 
-                            if (stack.Count != 0 && stack.Pop() != expectedBracket)
+                                if (stack.Pop() != expectedBracket)
+                                {
+                                    isMatch = false;
+                                    break;
+                                }
+                            }
+                            else
                             {
                                 isMatch = false;
-                                break;
                             }
+                            
+
+                            
                         }
                     }
 
-                    if (isMatch)
+                    if (isMatch && stack.Count == 0)
                     {
-                        Console.WriteLine("YES");
+                        sb.AppendLine("YES");
                     }
                     else
                     {
-                        Console.WriteLine("NO");
+                        sb.AppendLine("NO");
                     }
                 }
             }
 
+            Console.WriteLine(sb.ToString());
         }
     }
 }
