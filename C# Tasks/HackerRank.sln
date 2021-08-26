@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Climbing the Leaderboard", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utopian Tree", "Utopian Tree\Utopian Tree.csproj", "{50E82FBA-B842-439E-B8CC-18AC184D35F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumping on the Clouds", "Jumping on the Clouds\Jumping on the Clouds.csproj", "{35923952-A05F-4240-B8C2-DE95C769E625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jumping on the Clouds", "Jumping on the Clouds\Jumping on the Clouds.csproj", "{35923952-A05F-4240-B8C2-DE95C769E625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeated String", "Repeated String\Repeated String.csproj", "{13688974-1EAE-486B-886E-F5615B707BDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{35923952-A05F-4240-B8C2-DE95C769E625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35923952-A05F-4240-B8C2-DE95C769E625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35923952-A05F-4240-B8C2-DE95C769E625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13688974-1EAE-486B-886E-F5615B707BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13688974-1EAE-486B-886E-F5615B707BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13688974-1EAE-486B-886E-F5615B707BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13688974-1EAE-486B-886E-F5615B707BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
