@@ -85,9 +85,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repeated String", "Repeated
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chocolate Feast", "Chocolate Feast\Chocolate Feast.csproj", "{F6051626-0167-4622-8CA1-B398F8B8947E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equalize the Array", "Equalize the Array\Equalize the Array.csproj", "{2194AF0B-9195-4D59-95EF-C4E5D661EFD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equalize the Array", "Equalize the Array\Equalize the Array.csproj", "{2194AF0B-9195-4D59-95EF-C4E5D661EFD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beautiful Triplets", "Beautiful Triplets\Beautiful Triplets.csproj", "{7734E3AC-9A57-41D2-B1A4-F1FCD13A0DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beautiful Triplets", "Beautiful Triplets\Beautiful Triplets.csproj", "{7734E3AC-9A57-41D2-B1A4-F1FCD13A0DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halloween Sale", "Halloween Sale\Halloween Sale.csproj", "{1064D858-134B-44A2-92D6-506B2463D3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum Distances", "Minimum Distances\Minimum Distances.csproj", "{CFF91963-587C-414B-88DC-113E6524A642}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +271,14 @@ Global
 		{7734E3AC-9A57-41D2-B1A4-F1FCD13A0DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7734E3AC-9A57-41D2-B1A4-F1FCD13A0DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7734E3AC-9A57-41D2-B1A4-F1FCD13A0DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1064D858-134B-44A2-92D6-506B2463D3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1064D858-134B-44A2-92D6-506B2463D3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1064D858-134B-44A2-92D6-506B2463D3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1064D858-134B-44A2-92D6-506B2463D3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF91963-587C-414B-88DC-113E6524A642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF91963-587C-414B-88DC-113E6524A642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF91963-587C-414B-88DC-113E6524A642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF91963-587C-414B-88DC-113E6524A642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
