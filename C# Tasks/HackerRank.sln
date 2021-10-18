@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halloween Sale", "Halloween
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimum Distances", "Minimum Distances\Minimum Distances.csproj", "{CFF91963-587C-414B-88DC-113E6524A642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank in a String!", "HackerRank in a String!\HackerRank in a String!.csproj", "{E7206E2C-8CC6-4852-98A6-B2C105CB4D21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank in a String!", "HackerRank in a String!\HackerRank in a String!.csproj", "{E7206E2C-8CC6-4852-98A6-B2C105CB4D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beautiful Binary String", "Beautiful Binary String\Beautiful Binary String.csproj", "{9D58A7DB-DBC9-426D-98A4-9853EF6D2496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +287,10 @@ Global
 		{E7206E2C-8CC6-4852-98A6-B2C105CB4D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7206E2C-8CC6-4852-98A6-B2C105CB4D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7206E2C-8CC6-4852-98A6-B2C105CB4D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D58A7DB-DBC9-426D-98A4-9853EF6D2496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D58A7DB-DBC9-426D-98A4-9853EF6D2496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D58A7DB-DBC9-426D-98A4-9853EF6D2496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D58A7DB-DBC9-426D-98A4-9853EF6D2496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
