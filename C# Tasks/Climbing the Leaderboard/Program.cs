@@ -8,52 +8,30 @@ namespace Climbing_the_Leaderboard
     {
         static void Main(string[] args)
         {
-            List<int> ranked = new List<int>() { 100, 100, 50, 40, 40, 20, 10 };
+            List<int> ranked = new List<int>() { 100, 100, 100, 50, 40, 40, 20, 10 };
 
-            ranked = ranked.OrderByDescending(x => x).ToList();
+            Dictionary<int, int> ranks = new Dictionary<int, int>();
 
             List<int> player = new List<int>() { 5, 25, 50, 120 };
 
-            Dictionary<int, Dictionary<int, int>> positions = new Dictionary<int, Dictionary<int, int>>();
             int index = 1;
-            int count = 1;
-            int lowestIndex = int.MinValue;
 
-            foreach (var item in ranked)
+            for (int i = 0; i < ranked.Count; i++)
             {
-                if (positions.ContainsKey(item))
+                if (i > 0 && ranked[i - 1] == ranked[i])
                 {
-                    positions[item][index - 1] += 1;
-                }
-                else
-                {
-                    positions.Add(item, new Dictionary<int, int>());
-                    positions[item].Add(index++, count);
+                    continue;
                 }
 
-                if (lowestIndex < index)
-                {
-                    lowestIndex = index;
-                }
+                ranks.Add(index++, ranked[i]);
             }
 
-            foreach (var currentPlayer in player)
+            for (int i = 0; i < ranks.Count; i++)
             {
-                int currentPosition = positions.FirstOrDefault(x => x.Key <= currentPlayer).Key;
 
-                if (currentPosition <= 0)
-                {
-                    Console.WriteLine(lowestIndex);
-                }
-                else
-                {
-                    var currentTarget = positions.FirstOrDefault(x => x.Key <= currentPlayer).Value;
-                    foreach (var item in currentTarget)
-                    {
-                        Console.WriteLine(item.Key);
-                    }
-                }
             }
+
+            Console.WriteLine(String.Join("", ranks));
         }
     }
 }

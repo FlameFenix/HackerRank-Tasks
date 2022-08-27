@@ -20,7 +20,10 @@ namespace Day_of_the_Programmer
             int day = 0;
 
             day = 256 - sumDays;
-
+            if(year == 1700 || year == 1800 || year == 1900)
+            {
+                day -= 1;
+            }
             date = new DateTime(year, month, day);
 
             if(year == 1918)
@@ -28,9 +31,8 @@ namespace Day_of_the_Programmer
                 date = new DateTime(year, 1, 1);
                 date = date.AddDays(255 + 13);
             }
-            // Console.WriteLine(sumDays);
-            
-             Console.WriteLine(date.ToString("dd.MM.yyyy"));
+
+            Console.WriteLine(date.ToString("dd.MM.yyyy"));
         }
     }
 }

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Text;
+using System;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace Repeated_String
 {
@@ -10,16 +8,17 @@ namespace Repeated_String
     {
         static void Main(string[] args)
         {
-            string s = "aba";
+            string s = "cfimaakj";
             
-            long n = 100;
+            long n = 554045874191;
 
-            int containsA = s.Where(x => x == 'a').Count();
+            int countA = s.Where(x => x == 'a').Count();
 
-            double result = Math.Ceiling((Convert.ToDouble(n) / s.Length) * containsA);
+            int countLeft = s.Length - countA;
 
-            Console.WriteLine(result);
-
+            var test = n / s.Length;
+            Console.WriteLine($"{test} {test / countA} - n / countLeft");
+            Console.WriteLine($"{n / countLeft} - n / countLeft");
         }
     }
 }

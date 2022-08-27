@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ArrayManipulation
@@ -7,47 +8,39 @@ namespace ArrayManipulation
     {
         static void Main(string[] args)
         {
-            int n = 4;
-            int m = 10;
+            int n = 10;
+            int m = 4;
 
-            long[,] matrix = new long[n,m];
+            List<List<int>> queries = new List<List<int>>();
 
-            long maxValue = 0;
-            int[][] queries = new int[3][];
-            queries[0] = new int[] { 1, 5, 3 };
-            queries[1] = new int[] { 4, 8, 7 };
-            queries[2] = new int[] { 6, 9, 1 };
-
-            for (int i = 0; i < queries.Length; i++)
+            for (int i = 0; i < m; i++)
             {
-                int[] currentCommand = queries[i];
+                List<int> current = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
+                queries.Add(current);
+            }
+
+            long[] arr = new long[n];
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = 0;
+            }
+
+            for (int i = 0; i < queries.Count; i++)
+            {
+                List<int> currentCommand = queries[i];
                 int startIndex = currentCommand[0];
                 int endIndex = currentCommand[1];
                 long value = currentCommand[2];
 
-                for (int rows = i + 1; rows < matrix.GetLength(0); rows++)
+                for (int j = startIndex; j < endIndex; j++)
                 {
-                    for (int cols = 0; cols < matrix.GetLength(1); cols++)
-                    {
-                        if (cols >= startIndex - 1 && cols < endIndex)
-                        {
-                            matrix[rows, cols] += value;
-                            if (matrix[rows, cols] > maxValue)
-                            {
-                                maxValue = matrix[rows, cols];
-                            }
-                        }
-                        else
-                        {
-                            matrix[rows, cols] += 0;
-                        }
-
-                    }
+                    arr[j] += value;
                 }
             }
 
-            printMatrix(matrix);
-            Console.WriteLine(maxValue);
+            //      printMatrix(matrix);
+            Console.WriteLine(arr.Max());
 
             // (6 / 13) // Fault: Terminated due to timeout (Need optimizing) //
         }
